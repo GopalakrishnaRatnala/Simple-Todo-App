@@ -1,0 +1,16 @@
+button {
+  color: #ff0b37;
+  background-color: transparent;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid #ff0b37;
+  margin-left: 20px;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 70vw;
+}
