@@ -1,16 +1,30 @@
-button {
+.button {
   color: #ff0b37;
   background-color: transparent;
   border-radius: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border: 2px solid #ff0b37;
-  margin-left: 20px;
+  border: 1.5px solid #ff0b37;
+  height: 30px;
+  width: 60px;
+  flex-shrink: 0;
+  margin-left: 10px;
 }
-li {
+
+.todo-list-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 20px;
-  width: 70vw;
+  width: 100%;
+  align-items: center;
+}
+.todo-title {
+  color: #000000;
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 500;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
